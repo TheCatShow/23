@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow: hidden;
+    background: url(/img/115022-dizajn-uzor-kamuflyazh-voennyj_kamuflyazh-voennosluzhashhie-1920x1080.jpg);
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 5% 0;
+    background: rgba(182, 159, 159, 0.8);
+    color: #661616;
+}
+
+.block {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_air {
+    animation: air 0.1s infinite alternate;
+}
+
+.img {
+    width: 80%;
+    height: 90%;
+}
+
+.img__pic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.title {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+@keyframes air {
+    0% { transform: rotate(0deg) scale(0.1); }
+    10% { transform: rotate(0deg) scale(0.1); }
+    80% { transform: rotate(0deg) scale(1); }
+    100% { transform: rotate(0deg) scale(1); }
+}
+
+.bottom {
+    height: 40%;
+}
+
+.img_soldat {
+    animation: soldat 0.1s infinite alternate 0.1s;
+}
+
+@keyframes soldat {
+    0% { transform: translate(0); }
+    50% { transform: translate(0); }
+    100% { transform: translate(-50%); }
+}
+
+.subtitle {
+    font-size: 50px;
+    margin: 0;
+    animation: subtitle 0.1s alternate infinite;
+}
+
+@keyframes subtitle {
+    0% { color: #661616; }
+    100% { color: #0c3808; }
+}
