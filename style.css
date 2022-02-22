@@ -11,7 +11,7 @@ html, body {
 .wrapper {
     height: 100vh;
     overflow: hidden;
-    background: url(/img/115022-dizajn-uzor-kamuflyazh-voennyj_kamuflyazh-voennosluzhashhie-1920x1080.jpg);
+    background: url(img/115022-dizajn-uzor-kamuflyazh-voennyj_kamuflyazh-voennosluzhashhie-1920x1080.jpg);
     font-family: 'Play', sans-serif;
     text-transform: uppercase;
     text-align: center;
