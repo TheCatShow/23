@@ -36,7 +36,7 @@ html, body {
 }
 
 .img_air {
-    animation: air 0.1s infinite alternate;
+    animation: air 2s infinite alternate;
 }
 
 .img {
@@ -78,7 +78,7 @@ h1 {
 }
 
 .img_soldat {
-    animation: soldat 0.1s infinite alternate 0.1s;
+    animation: soldat 1s infinite alternate 1s;
 }
 
 @keyframes soldat {
@@ -90,7 +90,7 @@ h1 {
 .subtitle {
     font-size: 50px;
     margin: 0;
-    animation: subtitle 0.1s alternate infinite;
+    animation: subtitle 1s alternate infinite;
 }
 
 @keyframes subtitle {
